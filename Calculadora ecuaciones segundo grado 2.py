@@ -18,5 +18,5 @@ else:
     x1=(-b+math.sqrt(d))/(2*a)
     x2=(-b-math.sqrt(d))/(2*a)
     print('----Soluciones----')
-    print("Solucion x1: ", x1)
-    print("Solucion x2: ", x2)
+    print "Solucion x1: "+x1
+    print "Solucion x2: "+x2

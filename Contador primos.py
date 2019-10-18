@@ -7,7 +7,7 @@ def contador():
         n = int(input('Ponlo aqui: '))
     else:
         print 'El numero es correcto.'
-        for i in range (2, n):
+        for i in range (2, n+1):
             creciente = 2
             esprimo = True
             while esprimo and creciente<i:

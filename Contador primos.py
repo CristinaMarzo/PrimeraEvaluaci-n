@@ -2,10 +2,9 @@ def contador():
     print 'Bienvenid@ al contador de numeros primos.'
     print 'Hasta que numero quieres que cuente? Recuerda que tiene que ser positivo.'
     n = int(input('Ponlo aqui: '))
-    if n<=0:
+    while n<=0:
         print 'Ha ocurrido un error. Introduzca un numero positivo.'
         n = int(input('Ponlo aqui: '))
-    else:
         print 'El numero es correcto.'
         for i in range (2, n+1):
             creciente = 2

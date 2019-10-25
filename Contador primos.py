@@ -14,7 +14,7 @@ def contador():
                 esprimo = False
             else:
                 creciente=creciente+1
-        if esprimo = True:
+        if esprimo == True:
             print i, ' es primo'
         else:
             print i, ' no es primo'

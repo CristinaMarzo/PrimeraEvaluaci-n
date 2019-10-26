@@ -4,7 +4,7 @@ def dolares_euros():
     d = input("Introduzca aqui el importe: ")
     while (d<=0):
         print "Ha ocurrido un error"
-        print "Su importe debe ser porisitvo (estrictamente mayor que 0)."
+        print "Su importe debe ser positivo (estrictamente mayor que 0)."
         d = input ("Introduzca su nuervo importe aqui: ")
     print "Su numero es valido."
     resultado = d*0.90
